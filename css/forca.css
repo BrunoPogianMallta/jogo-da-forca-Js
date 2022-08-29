@@ -1,5 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Inter:wght@400;700&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Silkscreen&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10px;
+    background-image: url("../assets/old-paper-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Anton', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#main-image {
+    width: 600px;
+    height:400px;
+    background-image: url('../assets/forca01.png');
+    background-repeat: no-repeat;
+}
+
+#secret-key-word{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    margin-top: 30px;
+}
+
+.letters{
+    width: 16px;
+    text-align: center;
+    border-bottom: 2px solid rgb(128, 55, 7);
+    color: #FFFFFF;
+    padding: 2px;
+    margin: 0 2px;
+}
+
+#keyboard{
+    margin-top: 30px;
 }
